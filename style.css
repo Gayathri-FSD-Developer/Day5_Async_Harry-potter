@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+
+*{
+    font-family: cursive;
+    /* font-size: 5px !important; */
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    border-radius: 20%;
+    height: 50px;
+    width:50px;
+}
+#navbar{
+    position: sticky;
+    z-index: 100;
+    /* padding: 0.5rem 5rem; */
+    top:0;
+    left:0;
+    /* box-shadow: ; */
+    background: black;
+    /* border-radius: 12px; */
+}
+.navbar {
+    font-size: 25px;
+    /* font-weight: ; */
+}
+#navbarSupportedContent a{
+    color:antiquewhite;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    /* color:antiquewhite; */
+    border-bottom: 2px solid;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    min-height: 100vh;
+}
+#home{
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#home h1{
+    color: white;
+    font-weight: 500;
+    font-size: 65px;
+    font-family:cursive;
+}
+#home p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 50px;
+}
+ .character , .search{
+    background-color: rgba(73, 59, 42, 0.468);
+}
+
+section h5{
+    letter-spacing: 2px;
+    font-weight: 600px;
+}
+a{
+    /* text-align: center; */
+    display: flex !important;
+    justify-content: center !important;
+}
+#char img{
+    height: 300px;
+    /* width:300px; */
+}
+.card{
+    width:300px ;
+}
+.row .card_column{
+    display: flex;
+    justify-content: center;
+}
+.search_text{
+    /* margin-top: px; */
+    border-bottom:2px solid black;
+}
+.frame {
+    /* display: block; */
+    display: flex;
+        height: 500px;
+        width: 700px;
+        justify-content: center;
+}
+.frame h5{
+    font-size: 100%;
+}
+.frame:hover{
+    border: 2px solid gray;
+    box-shadow: 10px 8px 20px 5px rgba(0, 0, 0, 0.5);
+}
+.frame img{
+/* text-align: center; */
+height: 100%;
+width: 100%;
+}
+
+#frame_id{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:768px){
+    .frame {
+        
+            height: 350px;
+            width: 400px;
+    
+    }
+}
