@@ -121,4 +121,10 @@ width: 100%;
             width: 400px;
     
     }
+    .collapse .pr_dtl{
+        padding-top:0!important;
+    }
+    .collapse h5{
+        font-size: 90%;
+    }
 }
