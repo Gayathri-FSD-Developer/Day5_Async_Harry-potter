@@ -15,7 +15,7 @@ when using await in async function it wont go next process until that it doesn't
     <li>Bootstrap Responsives</li>
   </ul>
 <h2>And my output will be with responsivnes</h2>
-<img src="fianl_res.jpg" alt="result1" height="300" width="350">
-<img src="fianl_res1.jpg" alt="result2" height="300" width="350">
-<img src="final_result_respo.jpg" alt="result2" height="200" width="300">
+<img src="img_1.jpeg" alt="result1" height="300" width="350">
+<img src="img_3.jpeg" alt="result2" height="300" width="350">
+<img src="img_4.jpeg" alt="result2" height="200" width="300">
 
